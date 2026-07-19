@@ -1,4 +1,7 @@
-package com.cealyia.elainadiary;
+package com.cealyia.elainadiary.client;
+
+import com.cealyia.elainadiary.network.ModNetwork;
+import com.cealyia.elainadiary.network.DiaryPacket;
 
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;

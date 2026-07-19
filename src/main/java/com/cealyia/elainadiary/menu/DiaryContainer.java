@@ -1,4 +1,7 @@
-package com.cealyia.elainadiary;
+package com.cealyia.elainadiary.menu;
+
+import com.cealyia.elainadiary.registry.ModContainers;
+import com.cealyia.elainadiary.registry.ModItems;
 
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;

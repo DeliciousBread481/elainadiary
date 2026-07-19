@@ -1,4 +1,6 @@
-package com.cealyia.elainadiary;
+package com.cealyia.elainadiary.item;
+
+import com.cealyia.elainadiary.client.ClientDiaryHandler;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
@@ -32,12 +34,9 @@ public class ElainaDiaryItem extends Item {
                 itemStack.setTag(tag);
             }
         } else {
-            // 使用 DistExecutor 延迟加载客户端 GUI 类，避免服务端类加载失败
-            DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> {
-                net.minecraft.client.Minecraft.getInstance().setScreen(
-                    new DiaryScreen(player, itemStack)
-                );
-            });
+            DistExecutor.unsafeRunWhenOn(Dist.CLIENT,  
+                () -> () -> ClientDiaryHandler.openDiaryScreen(player, itemStack)  
+            );  
         }
         
         return InteractionResultHolder.success(itemStack);

@@ -2,6 +2,10 @@ package com.cealyia.elainadiary;
 
 import com.mojang.logging.LogUtils;
 
+import com.cealyia.elainadiary.registry.ModItems;
+import com.cealyia.elainadiary.registry.ModContainers;
+import com.cealyia.elainadiary.network.ModNetwork;
+
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;

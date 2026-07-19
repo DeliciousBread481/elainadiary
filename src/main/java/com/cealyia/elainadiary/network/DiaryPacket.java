@@ -1,4 +1,6 @@
-package com.cealyia.elainadiary;
+package com.cealyia.elainadiary.network;
+
+import com.cealyia.elainadiary.registry.ModItems;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;

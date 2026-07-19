@@ -1,4 +1,6 @@
-package com.cealyia.elainadiary;
+package com.cealyia.elainadiary.network;
+
+import com.cealyia.elainadiary.ElainaDiaryMod;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.network.NetworkRegistry;

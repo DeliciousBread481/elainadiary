@@ -1,8 +1,11 @@
-package com.cealyia.elainadiary;
+package com.cealyia.elainadiary.registry;
+
+import com.cealyia.elainadiary.ElainaDiaryMod;
+import com.cealyia.elainadiary.menu.DiaryContainer;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.inventory.MenuType;
-import net.minecraft.world.item.ItemStack;  // ← 添加这一行
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.common.extensions.IForgeMenuType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

@@ -1,4 +1,7 @@
-package com.cealyia.elainadiary;
+package com.cealyia.elainadiary.registry;
+
+import com.cealyia.elainadiary.ElainaDiaryMod;
+import com.cealyia.elainadiary.item.ElainaDiaryItem;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item;

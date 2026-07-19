@@ -1,4 +1,7 @@
-package com.cealyia.elainadiary;
+package com.cealyia.elainadiary.event;
+
+import com.cealyia.elainadiary.ElainaDiaryMod;
+import com.cealyia.elainadiary.registry.ModItems;
 
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.server.level.ServerPlayer;
